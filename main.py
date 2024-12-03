@@ -1,2 +1,2 @@
-def find_max(a):
-    return max(a)
+a = list(map(int, input().split()))
+print(max(a))
