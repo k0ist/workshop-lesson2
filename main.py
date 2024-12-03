@@ -1,5 +1,5 @@
-def find_max(a):
-    return max(a)
+def find_min(a):
+    return min(a)
 
 
 def main():
@@ -7,7 +7,7 @@ def main():
     a = [0] * length
     for i in range(length):
         a[i] = int(input())
-    print("Maximum of array is", find_max(a))
+    print("Minimum of array is", find_max(a))
 
 
 main()
